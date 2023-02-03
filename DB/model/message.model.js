@@ -6,7 +6,7 @@ const messageSchema = new mongoose.Schema(
       required: true,
     },
 
-    reciverid: {
+    reciverid: {//foreign key refference on userModel to know who this messege
       type: mongoose.Schema.Types.ObjectId,
       ref: "user",
       required: true,
