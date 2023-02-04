@@ -1,5 +1,6 @@
 const { nanoid } = require("nanoid");
 const multer = require("multer");
+//this file for upload files
 const multerValidation = {
   image: ["image/jpeg", "image/png"],
   pdf: ["application/pdf"],
